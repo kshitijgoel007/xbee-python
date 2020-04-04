@@ -16,7 +16,8 @@ import abc
 from abc import abstractmethod
 
 
-class XBeeCommunicationInterface(metaclass=abc.ABCMeta):
+class XBeeCommunicationInterface(object):
+    __metaclass__ = abc.ABCMeta
     """
     This class represents the way the communication with the local XBee is established.
     """
