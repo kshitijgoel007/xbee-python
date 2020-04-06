@@ -12,7 +12,7 @@
 # ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-from digi.xbee.devices import WiFiDevice
+from digi.xbee_python.devices import WiFiDevice
 
 # TODO: Replace with the serial port where your local module is connected to.
 PORT = "COM1"
